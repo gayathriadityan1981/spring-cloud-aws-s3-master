@@ -1,0 +1,26 @@
+#Application properties
+server:
+  port: 8081
+
+
+#AWS properties
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+    credentials:
+      accessKey: AKIARNQQBTMD3M2JDW6F
+      secretKey: 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
+
+application:
+  bucket:
+    name: www.imageupload.awsgayathri
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
